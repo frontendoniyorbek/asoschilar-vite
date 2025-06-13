@@ -1,7 +1,7 @@
 import logo from '../assets/logo.svg';
 function Header() {
 	return (
-		<header className='py-4 md:py-5 backdrop-blur-lg bg-[#FEFEFEE5]'>
+		<header className='py-4 md:py-5 backdrop-blur-lg bg-[#FEFEFEE5] sticky top-0'>
 			<div className='max-w-7xl mx-auto px-10  flex items-center justify-between'>
 				<a className='flex' href='/'>
 					<img className='md:w-[102px] w-16' src={logo} alt='logo' width={102} height={36} />

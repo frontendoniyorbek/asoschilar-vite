@@ -1,0 +1,8 @@
+/* Tailwind config ichida yoki `@tailwind base`dan keyin CSS faylda yozing */
+@layer utilities {
+	@media (max-width: 768px) {
+		.hide-after-3 > .item:nth-child(n + 4) {
+			@apply hidden;
+		}
+	}
+}
